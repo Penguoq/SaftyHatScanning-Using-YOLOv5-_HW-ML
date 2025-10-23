@@ -122,3 +122,4 @@ python train.py --img 640 --epochs 130 --data data/HatScan.yaml --weights yolov5
 ## 🙌 Credits
 - [Ultralytics YOLOv5](https://github.com/ultralytics/yolov5)
 - ขอบคุณ Roboflow สำหรับเครื่องมือช่วย Annotate
+
