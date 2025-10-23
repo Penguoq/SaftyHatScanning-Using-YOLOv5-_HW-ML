@@ -1,0 +1,15 @@
+# YOLOv5 dataset YAML for HatScan
+# Update the 'path' and 'train/val/test' to your actual dataset locations if different.
+
+path: .  # dataset root dir (can be '.' when using absolute paths below)
+
+train: /content/drive/MyDrive/<YOUR_DATA_PATH>/images/train  # <-- update to your Drive path
+val: /content/drive/MyDrive/<YOUR_DATA_PATH>/images/val      # <-- update to your Drive path
+test: /content/drive/MyDrive/<YOUR_DATA_PATH>/images/test    # <-- optional / update
+
+# Classes
+nc: 3
+names:
+  - GapHat
+  - NoSafty_Hat
+  - SaftyHat

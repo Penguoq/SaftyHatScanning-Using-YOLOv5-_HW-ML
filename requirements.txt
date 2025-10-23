@@ -1,0 +1,10 @@
+# Minimal runtime to do inference in Colab/local
+torch>=1.9
+opencv-python
+matplotlib
+numpy
+Pillow
+PyYAML
+tqdm
+# If you plan to retrain locally, also install:
+# git+https://github.com/ultralytics/yolov5.git
